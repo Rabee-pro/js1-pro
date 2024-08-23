@@ -503,3 +503,90 @@ else{
 //     pattern+="\n";
 // }
 // console.log(pattern)
+
+
+// Printing 1 4 9 16 25 36 49 64 81 100   - 36 vijaysir
+
+// let myValue = 1;
+// let str = 2;
+// while(str<23){
+//     if(str%2 != 0){
+//         console.log(myValue);
+//         myValue = myValue + str;
+//         str++;
+//     }else{
+//         str++;
+//     }
+
+
+//  Printing 1 4 27 256        - 37  vijaysir
+
+// let str1 = 1;
+// while(str1<5){
+//     let value = Math.pow(str1, str1);
+//     console.log(value);
+//     str1++;
+// }
+
+
+// swapping two numbers         - 26  vijaysir
+
+// let a = 10;
+// let b = 5;
+
+// let tem = a;
+// a = b;
+// b = tem;
+
+// console.log(`a is ${a} and b is ${b}`)
+
+
+// swapping withought thid variable    -  27 vijaysir
+
+// let a = 6;
+// let b = 3;
+// console.log(`${a},${b}`);
+// a = a + b;
+// console.log(`${a},${b}`);
+// b = a - b;
+// console.log(`${a},${b}`)
+// a = a - b;
+// console.log(`a is ${a}, b is ${b}`)
+
+
+// Printing 1 8 27 64            - 35 vijaysir
+
+// let str = 1;
+// let end = 4;
+// while(str <= end){
+//     let myValue = str*str*str;
+//     console.log(myValue);
+//     str++;
+// }
+
+
+// Printing 5! 4! 3! 2! 1!     - 32 vijaysir
+
+
+// let end = 5;
+// let str = 1;
+
+// while(end >= str){
+
+// let myValue = 1;
+
+//  let factstr = end; // 4
+//  let factend = str; // 1
+
+// while(factstr >= factend){
+   
+//     myValue*=factstr;
+    
+//     factstr--;
+//     }
+    
+
+//     console.log(myValue);
+//     end--;
+// }
+// }
